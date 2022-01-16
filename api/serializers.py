@@ -10,5 +10,5 @@ class ApiSerializers(serializers.ModelSerializer):
 
     class Meta:
         model = ApiModel
-        fields = ('pk', 'timestamp', 'identifier')
+        fields = ('timestamp', 'identifier')
 
